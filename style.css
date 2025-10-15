@@ -1,0 +1,109 @@
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: #0e0e1a;
+     color: white;
+ }
+
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 40px;
+     background-color: #0e0e1a;
+ }
+
+ .logo {
+     font-size: 22px;
+     font-weight: bold;
+ }
+
+ .nav {
+    position: relative;
+     display: block;
+ }
+
+ .dropdown-button {
+     background: gray;
+     border-radius: 20px;
+     border: 2px solid black;
+     color: white;
+     font-size: 16px;
+
+ }
+
+ .dropdown-content {
+     display: none ;
+     position: absolute;
+     background-color: #1a1a2e;
+     width: 120px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+     border-radius: 8px;
+     z-index: -1;
+     top: 30px;
+ }
+
+ .dropdown-content a {
+     color: white;
+     padding: 10px 16px;
+     display: block;
+ }
+
+ .dropdown-content a:hover {
+     background-color: #3a3a5a;
+ }
+
+ .nav:hover .dropdown-content {
+     display: block;
+ }
+
+ .auth-buttons {
+     display: flex;
+     gap: 12px;
+ }
+
+ .auth-buttons button {
+     background-color: #cbb7f0;
+     border: 2px solid black;
+     padding: 8px 16px;
+     border-radius: 10px;
+     color: #000;
+ }
+
+ .auth-buttons button:hover {
+     background-color: #bda4e0;
+ }
+
+
+ .characters {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 40px;
+     padding: 40px;
+ }
+
+ .character-card {
+     background-color: #1a1a2e;
+     border-radius: 15px;
+     padding: 20px;
+     width: 220px;
+     text-align: center;
+ }
+
+ .character-card img {
+     width: 100px;
+     height: 100px;
+     border-radius: 12px;
+     margin-bottom: 15px;
+ }
+
+ .character-card h3 {
+     margin: 10px 0 5px;
+ }
+
+ .character-card p {
+     font-size: 14px;
+     color: #ccc;
+ }
+
